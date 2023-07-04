@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #774e2e;
+}
+
+.container{
+    /* border: 2px solid #000; */
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 110px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+h1 span{
+    color: #f37f34;
+}
+
+h2{
+    font-size: 72px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 span{
+    color: #f37f34;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 500;    
+    line-height: 24px; 
+}
+
+/* COMMON STYLES END */
+
+/* HEADER STYLES CTART */
+
+header{
+    padding-top: 30px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 50px;
+    color: #774e2e;
+    text-decoration: none;
+    user-select: none;
+}
+
+.greating{
+    background-image: url(./images/mops.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-top: 160px;
+    padding-bottom: 205px;
+}
+
+.text{
+    width: 575px;
+}
+
+.btn{
+    user-select: none;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #774e2e;
+    border: none;
+    padding: 22px 42px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER STYLES END */
+
+/* MAIN */
+
+section{
+    padding: 150px 0;
+    background: #fff9ea;
+}
+
+.card{
+    width: 370px;
+    text-align: center; 
+    padding: 20px;
+    padding-top: 0;
+    background: #fff;
+}
+
+.card img{
+    margin-bottom: 35px;
+    width: 100%;
+    height: 250px;
+}
+
+.card b{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.cards{
+    justify-content: space-between;
+    display: flex;
+}
+
+/* SWEETS__SECTION */
+
+.sweets__container{
+    margin-top: 70px;
+}
+
+
+/* TIP__SECTION */
+
+.tip__section{
+    background: #fff;
+}
+
+.tip{
+    background-image: url(./images/mops-2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 30px 0;
+}
+
+h3{
+    margin-top: 60px;
+}
+
+.tip .text h2{
+    margin-bottom: 30px;
+}
+
+ul{
+    line-height: 24px;
+    font-size: 16px;
+    margin: 0;
+}
+/* FOOTER */
+
+footer{
+    background: #774E2E;        
+}
+
+.footer-container{
+    padding: 40px 0;
+}
+
+.text-footer{
+    color: #fff;    
+    font-size: 36px;
+}
+.logo-2{
+    width: 99px;
+    height: 99px;
+}
